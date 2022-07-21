@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+     :root {
+        --BackGround: hsl(207, 26%, 17%);
+        --Text : hsl(0, 0%, 100%);
+        --Element : hsl(209, 23%, 22%);
+     }
+     .LM{
+        --BackGround: white;
+        --Text : hsl(200, 15%, 8%);
+        --Element : white;
+        --shadow :  hsl(0, 0%, 52%);
+     }
+}
+
+
+/*
+      DMElements: 'hsl(209, 23%, 22%)',
+      DMBackground: 'hsl(207, 26%, 17%)',
+      LMText: 'hsl(200, 15%, 8%)',
+      LMInput: 'hsl(0, 0%, 52%)',
+      LMBackground: 'hsl(0, 0%, 98%)',
+      White: 'hsl(0, 0%, 100%)',
+*/
